@@ -29,4 +29,8 @@ LOCAL_CFLAGS += -DTRACK_MALI_MEMORY
 LOCAL_SRC_FILES += mali.c
 endif
 
+LOCAL_CFLAGS += -Wno-gnu-designator
+LOCAL_CFLAGS += -Wno-unused-parameter
+LOCAL_CFLAGS += -Wno-unused-variable
+
 include $(BUILD_SHARED_LIBRARY)

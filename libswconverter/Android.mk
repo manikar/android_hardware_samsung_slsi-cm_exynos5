@@ -29,4 +29,6 @@ LOCAL_ARM_MODE := arm
 LOCAL_STATIC_LIBRARIES :=
 LOCAL_SHARED_LIBRARIES := liblog
 
+LOCAL_CFLAGS += -Wno-unused-variable
+
 include $(BUILD_STATIC_LIBRARY)
