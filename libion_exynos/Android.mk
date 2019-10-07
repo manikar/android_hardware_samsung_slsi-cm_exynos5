@@ -27,6 +27,4 @@ LOCAL_CFLAGS += -DGAIA_FW_BETA
 
 LOCAL_MODULE := libion_exynos
 
-LOCAL_MODULE_TAGS := optional
-
 include $(BUILD_SHARED_LIBRARY)

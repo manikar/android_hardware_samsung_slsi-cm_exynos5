@@ -82,7 +82,6 @@ ifeq ($(BOARD_TV_PRIMARY),true)
 endif
 
 LOCAL_MODULE := libExynosHWCService
-LOCAL_MODULE_TAGS := optional
 include $(BUILD_SHARED_LIBRARY)
 
 endif
